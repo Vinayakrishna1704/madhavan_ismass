@@ -10,8 +10,12 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Home";
 
+            return View();
+        }
+        public ActionResult Take()
+        {
             return View();
         }
     }
