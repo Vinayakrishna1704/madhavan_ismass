@@ -12,6 +12,11 @@ namespace WebApplication1.Controllers
         {
             ViewBag.Title = "Home Page 123";
 
+
+            return View();
+        }
+        public ActionResult Take()
+        {
             return View();
         }
     }
